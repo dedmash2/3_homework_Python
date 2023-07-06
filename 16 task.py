@@ -10,4 +10,14 @@
     3
     -> 1
 """
-
+list_1 = []
+n = int(input())
+i = 0
+for i in range(n):
+    list_1.append(int(input()))
+x = int(input())
+count = 0
+for i in list_1:
+    if i == x:
+        count += 1
+print(count)
