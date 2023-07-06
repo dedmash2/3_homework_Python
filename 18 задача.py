@@ -15,10 +15,8 @@ n = int(input())
 for i in range(n):
     list_1.append(int(input()))
 x = int(input())
-c = 0
+c = list_1[0]
 for i in list_1:
-    a = abs(x - list_1[i])
-    b = abs(x - list_1[i+1])
-    if a < b:
-        c = list_1[i]
+    if abs(i - x) < abs(c - x):
+        c = i
 print(c)
