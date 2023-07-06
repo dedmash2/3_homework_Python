@@ -12,7 +12,6 @@
 """
 list_1 = []
 n = int(input())
-i = 0
 for i in range(n):
     list_1.append(int(input()))
 x = int(input())
